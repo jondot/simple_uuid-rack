@@ -1,8 +1,14 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    daemons (1.1.4)
+    eventmachine (0.12.10)
     rack (1.4.0)
     simple_uuid (0.2.0)
+    thin (1.2.11)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
 
 PLATFORMS
   ruby
@@ -10,3 +16,4 @@ PLATFORMS
 DEPENDENCIES
   rack
   simple_uuid
+  thin
